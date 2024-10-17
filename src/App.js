@@ -17,9 +17,9 @@ function App() {
        <Testimonio 
           nombre='Karina Simbaña'
           pais='Ecuador'
-          imagen='icon-user'
-          cargo='Apasionada por el aprendizaje continuo'
-          testimonio='Mi pasión por la tecnología y la innovación me impulsa a seguir aprendiendo todos los días. En cada proyecto encuentro una oportunidad para mejorar y crecer. Aprender, no solo como estudiante, sino también como persona, es lo que me motiva a seguir adelante.'
+          imagen='amigos'
+          cargo='Estudiante de Ingeniería en Sistemas'
+          testimonio='Durante mis estudios en la Universidad Central, tuve la oportunidad de conocer a Will y Jessy. Ambos se convirtieron en grandes amigos y compañeros de estudio. Juntos compartimos aprendizajes y superamos muchos retos en nuestra carrera, lo que hizo de mi experiencia universitaria algo inolvidable.'
         />
      </div>
     </div>
