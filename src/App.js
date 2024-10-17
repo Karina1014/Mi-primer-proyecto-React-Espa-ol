@@ -5,8 +5,22 @@ function App() {
   return (
     <div className="App">
       <div className='contenedor-principal'>
-      <h1>Esto es lo un repaso de REACT</h1>
-     <Testimonio />
+      <h1>Mi primer proyecto en React</h1>
+      <Testimonio 
+        nombre='Karina Simbaña'
+        pais='Ecuador'
+        imagen='karina'
+        cargo='Estudiante de Ingeniería en Sistemas'
+        testimonio='Como estudiante de ingeniería, me esfuerzo cada día por aprender algo nuevo. Creo firmemente que dar lo mejor de mí no solo me acerca a mis metas, sino que también inspira a quienes me rodean a seguir creciendo. Cada desafío es una oportunidad para ser mejor.'
+      />
+       {/* Segundo testimonio  */}
+       {/* <Testimonio 
+          nombre='Karina Simbaña'
+          pais='Ecuador'
+          imagen='icon-user'
+          cargo='Apasionada por el aprendizaje continuo'
+          testimonio='Mi pasión por la tecnología y la innovación me impulsa a seguir aprendiendo todos los días. En cada proyecto encuentro una oportunidad para mejorar y crecer. Aprender, no solo como estudiante, sino también como persona, es lo que me motiva a seguir adelante.'
+        /> */}
      </div>
     </div>
   );

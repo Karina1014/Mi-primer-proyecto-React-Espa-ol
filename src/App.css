@@ -8,10 +8,11 @@
 
 /*1*/
 html,
-body{
-  font-size: 18.px; /*Tamaño del texto*/
-  background-color: rgb(211, 247, 247); /*color de fondo*/
+body {
+  font-size: 18px; /* Tamaño del texto */
+  background: linear-gradient(to bottom, #00c9ff, #0057e7, #ffffff); 
 }
+
 
 h1{
   max-width: 940px;/*ancho maximo de este titulo*/

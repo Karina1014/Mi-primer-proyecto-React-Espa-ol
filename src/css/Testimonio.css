@@ -5,8 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 255, 213);
-    box-shadow: 0 3px 13px 1px #ff050517;/*hacer la sobra del contenedor*/
+    background-color: #f0f0f0;
+    box-shadow: 0 3px 13px 1px #00000017;/*hacer la sobra del contenedor*/
 
 }
 .imagen-testimonio{
