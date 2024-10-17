@@ -1,38 +1,41 @@
-.App {
+/*Estilos a APP*/
+
+/*Los navegdadores vienen predeeterminadas lo personalizamos*/
+*{
+  margin:0;
+  padding: 0;
+}
+
+/*1*/
+html,
+body{
+  font-size: 18.px; /*Tamaño del texto*/
+  background-color: rgb(211, 247, 247); /*color de fondo*/
+}
+
+h1{
+  max-width: 940px;/*ancho maximo de este titulo*/
+  font-size: 2.5em;/*tamaño de la letra em un factor relativo en contenedor*/
+  font-family: Lato,sans-serif;
+  font-weight: 700;/*gruesa la letra*/
+  line-height: 1.1;/*seperacion*/
+  margin: 40px 0;
+}
+
+/*Tamaño a mi APP*/
+.App{
+  min-height: 100vh;/*se adapte a la altura del navegador q minimo tomara el 100%verticalmente*/
+  display: flex;/*definir como se van a ubicar los elementos dentro del contenedor*/
+  flex-wrap:wrap;/*SI UN ELEMENTO TOMA EL ANCHO DE PUES SE UBICA debajo de elO SIGUIENTE*/
+  align-items: center;/*se alinean en centro !!*/
+  justify-content: center;/*se centra horizantal !! */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor-principal{
+  min-height: 600px;/*una minima altura q se adaptara con el contenedor*/
+  display: flex; /*condenedor flex*/
+  flex-wrap:wrap;/*SI UN ELEMENTO TOMA EL ANDCHO DE PUES SE UBICA debajo de el*/
+  align-items: center;/*se alinean en centro */
+  justify-content: center;/*se centra horizantal y verticalemte*/
 }
