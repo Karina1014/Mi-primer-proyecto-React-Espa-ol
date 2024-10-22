@@ -25,4 +25,4 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
    git clone https://github.com/Karina1014/Mi-primer-proyecto-React-Espa-ol.git
 
 
-![Vista previa de la aplicación](assets/image.png)
+![Vista previa de la aplicación](./src/assets/image.png)
