@@ -23,3 +23,6 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/Karina1014/Mi-primer-proyecto-React-Espa-ol.git
+   
+
+![Vista previa de la aplicación](ssets/image.png)
